@@ -158,4 +158,4 @@ class BigSliderCard extends GestureEventListeners(LitElement) {
   }
 }
 
-customElements.define('ha-big-slider-card', BigSliderCard);
+customElements.define('big-slider-card', BigSliderCard);

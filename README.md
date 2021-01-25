@@ -1,0 +1,1 @@
+# ha-big-slider-card

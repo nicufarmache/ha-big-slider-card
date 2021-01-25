@@ -1,0 +1,42 @@
+:host {
+  --bsc-background: #aaaaaa;
+  --bsc-slider-background: #f9d2b0;
+  --bsc-percent: 0%;
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.1s ease-out;
+  user-select: none;
+}
+
+:host([pressed]) {
+  transform: scale(0.98);
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  background: var(--bsc-background);
+}
+
+#slider {
+  height: 100%;
+  position: absolute;
+  background: var(--bsc-slider-background);
+  left: 0;
+  top: 0;
+  right: var(--bsc-percent);
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

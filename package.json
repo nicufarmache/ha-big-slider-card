@@ -1,0 +1,20 @@
+{
+  "name": "ha-big-slider-card",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch --mode=development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polymer/paper-slider": "^3.0.1",
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0"
+  }
+}

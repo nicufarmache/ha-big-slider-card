@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/main.js',
   mode: 'production',
   output: {
-    filename: 'ha-big-slider-card.js',
+    filename: 'big-slider-card.js',
     path: path.resolve(__dirname)
   },
   module: {
